@@ -1,0 +1,48 @@
+/*--------------------------
+All style start from here 
+----------------------------*/
+/* Commonstyle for all */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Top banner style */
+.top-banner{
+    display: flex;
+    background-color: #2D25A0;
+    justify-content: space-between;
+
+}
+.top-photo img{
+    width: 556.01px;
+    height: 438px;
+    padding-left: 200px;
+
+}
+.top-photo:hover{
+    transform: rotate(360deg);
+    transition: transform 1s;
+}
+.top-text{
+    text-align: center;
+}
+.top-text h1{
+    text-align: center;
+    color: azure;
+    font-weight: 700;
+    font-size: 64px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.top-button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    border-radius: 4px;
+    color: antiquewhite;
+    padding: 10px 24px;
+}
+.top-button:hover{
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
